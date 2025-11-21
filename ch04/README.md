@@ -1,6 +1,12 @@
 ##Chapter 04 - 符合类型##
 
+### 一些记录
 
+#### new 和 delete
+只有new出来的 指针， 才能 delete
+new 出来的 数组， 
+例如： int *psome = new int[10];
+需要 delete [] psome
 
 
 
