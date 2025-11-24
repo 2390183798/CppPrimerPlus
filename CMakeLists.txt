@@ -10,7 +10,10 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(
     CppPrimerPlus ${SOURCES}
-        ch09/do01s2/do9.4auto.cpp
+#        ch09/do01s2/do9.4auto.cpp
+
+        ch09/do02/do9.5external.cpp
+        ch09/do02/do9.6support.cpp
 
 
 )
