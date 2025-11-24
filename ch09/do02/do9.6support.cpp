@@ -12,6 +12,7 @@ void update(double dt) {
     warming += dt;
 
     cout << "Updating global warming to " << warming << " degress." << endl;
+    cout << "::warming =  " << ::warming << " degress." << endl;
 }
 
 void local() {
