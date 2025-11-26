@@ -51,10 +51,21 @@ void Stock::update(double price) {
     set_tot();
 }
 
-void Stock::show() {
+void Stock::show() const {
+    // const ios_base::fmtflags orig = cout.setf(ios_base::fixed, ios_base::floatfield);
+    const ios_base::fmtflags orig = cout.setf(ios_base::fixed, ios_base::floatfield);
+    const streamsize prec3 = cout.precision(3);
+    const streamsize prec2 = cout.precision(2);
+
     cout << "Company: " << company
         << ", Shares: " << shares << endl;
 
-    cout  << "Share Price: $" << share_val
-        << ", Total Worth: $" << total_val << endl;
+    cout  << "Share Price: $" << share_val;
+    // cout.setf(orig, ios_base::floatfield);
+    cout.precision(prec2);
+
+
+    cout  << ", Total Worth: $" << total_val << endl;
+    cout.setf(orig, ios_base::floatfield);
+    cout.precision(prec3);
 }
