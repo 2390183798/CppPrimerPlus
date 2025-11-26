@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(
     CppPrimerPlus ${SOURCES}
-#        ch09/do01s2/do9.11namesp.h
+        #        ch09/do01s2/do9.11namesp.h
 
 #        ch09/do02/do9.5external.cpp
 #        ch09/do02/do9.6support.cpp
@@ -24,9 +24,13 @@ add_executable(
 #        ch09/do05namesp/do9.12namesp.cpp
 #        ch09/do05namesp/do9.13namessp.cpp
 
-        ch10/do01/do10.1stock00.h
-        ch10/do01/do10.2stock00.cpp
-        ch10/do01/do10.3usestock00.cpp
+#        ch10/do01/do10.1stock00.h
+#        ch10/do01/do10.2stock00.cpp
+#        ch10/do01/do10.3usestock00.cpp
 
+
+        ch10/do01/do10.4stock10.h
+        ch10/do01/do10.5stock10.cpp
+        ch10/do01/do10.6usestock10.cpp
 
 )
