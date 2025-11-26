@@ -34,8 +34,13 @@ add_executable(
 #        ch10/do01/do10.6usestock10.cpp
 
 
-        ch10/do01/do10.7stock20.h
-        ch10/do01/do10.8stock20.cpp
-        ch10/do01/do10.9usestock20.cpp
+#        ch10/do01/do10.7stock20.h
+#        ch10/do01/do10.8stock20.cpp
+#        ch10/do01/do10.9usestock20.cpp
+
+        ch10/do02stack/do10.10stack.h
+        ch10/do02stack/do10.11stack.cpp
+        ch10/do02stack/do10.12stacker.cpp
+
 
 )
