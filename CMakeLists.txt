@@ -20,11 +20,13 @@ add_executable(
 
 #        ch09/do04static/do9.9static.cpp
 
-        ch09/do05namesp/do9.11namesp.h
-        ch09/do05namesp/do9.12namesp.cpp
-        ch09/do05namesp/do9.13namessp.cpp
+#        ch09/do05namesp/do9.11namesp.h
+#        ch09/do05namesp/do9.12namesp.cpp
+#        ch09/do05namesp/do9.13namessp.cpp
 
-
+        ch10/do01/do10.1stock00.h
+        ch10/do01/do10.2stock00.cpp
+        ch10/do01/do10.3usestock00.cpp
 
 
 )
